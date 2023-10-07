@@ -1,0 +1,265 @@
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .Navbar{
+                display: flex;
+                background-color: #282a57;
+                width: 100%;
+                color: white;
+                padding: 15px;
+    
+    }
+    
+    .Navbar img{    
+                    margin-left: 87px;
+    }
+    
+    .Navbar p{
+                font-size: 12px;
+    }
+    
+    .Navbar .Navabar-Content{
+                    text-align: center;
+                    margin-left: 17%;
+    }
+    
+    /*   for Header */
+    @media screen and (max-width: 680px) {
+        .Navbar .Navabar-Content h2{
+                                font-size: 15px;
+        }
+    
+        .Navabar-Content p{
+                                font-size: 9px;
+        }
+      }
+
+.symbol{
+                margin: 8px;
+}
+
+#alert{
+        background-color: white;
+        font-size: 20px;
+        color: #002A53;
+        padding: 7px;
+        border-radius: 100%;
+}
+
+#alert2{
+
+        background-color: white;
+        font-size: 20px;
+      
+        padding: 7px;
+        border-radius: 100%;
+
+}
+
+@media only screen and (max-width: 600px) {
+        #alert,#alert2 {
+
+                  font-size: 15px;
+        }
+      }
+
+
+
+
+.subContainer1{
+                        display: flex;
+                        justify-content: space-evenly;
+                        margin-top: 20px;
+                        margin-left: 62px;
+}
+
+.numberField{
+                        position: relative;
+}
+
+
+.mainPersonalDetail1{
+                              
+                                display: flex;
+                                padding: 28px ;
+                                border-radius: 15px;
+                                
+}
+
+
+
+.personalDetail1 h3{
+                       margin-bottom: 15px;
+                       margin-left: 22px;
+}
+
+.personalDetail2{
+                        margin-top: 30px;
+}
+
+.personalDetail2 img{
+                        border-radius: 10px;
+                        margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+        .personalDetail2 img {
+
+                        display: none;
+        }
+      }
+
+.subPersonalDetails1{
+                      display: flex;
+                        margin-left: 25px;
+                        justify-content: space-evenly;
+                      
+}
+
+@media only screen and (max-width: 600px) {
+        .subPersonalDetails1 {
+                        display: block;
+                        margin-left: 15px;
+        }
+      }
+
+
+.subPersonalDetails2{
+                        margin-left: 27px;
+                        margin-top: 20px;
+        
+}
+
+
+@media only screen and (max-width: 600px) {
+        .subPersonalDetails2 {
+                margin-left: 15px;
+        }
+      }
+
+.subPersonalDetails2Para{
+                             margin-top: 20px;
+}
+
+
+.input{
+                padding: 12px 40px;
+                border-radius: 3px;
+                border: 1px solid rgb(132, 130, 130);
+                margin-right: 30px;
+                
+}   
+
+
+.inputSubpersonal{
+                      padding: 8px 75px;  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+        .inputSubpersonal {
+                padding: 8px 25px; 
+        }
+      }
+
+
+
+.subPersonalDetails2Para textarea{
+                                resize: none;
+                                border-radius: 3px;
+}   
+
+
+.textareaPinCode{
+                        display: flex;
+                                justify-content: center;
+                                margin-top: 20px;
+                                margin-left: 50px;
+}
+
+.textareaPara{
+                        margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+        .textareaPinCode {
+                display: block;
+        }
+      }
+
+
+.countryStateDist{
+                        display: flex;
+                                justify-content: center;
+                                margin-left: 90px;
+                                margin-top: 20px;
+} 
+
+
+@media only screen and (max-width: 600px) {
+        .countryStateDist {
+                display: block;
+                margin-left: 30px;
+        }
+      }
+
+.inputcountryStateDist{
+        padding: 12px 30px;
+        border-radius: 3px;
+        border: 1px solid rgb(132, 130, 130);
+        margin-right: 30px;
+        
+}   
+
+
+.genderAndDob{
+                display: flex;
+                justify-content: center;
+}
+
+
+.genderAndDob{
+                margin-top: 20px;
+                margin-left: 85px;
+}
+
+.inputGenderAndDob{
+                        padding: 8px 95px;
+                       margin-right: 20px;
+                       
+}
+
+.nominee h3{
+                margin-left: 23.3%;
+                margin-top: 30px;
+}
+
+.buttonDiv{
+                display: flex;
+                justify-content: center;
+                margin-top: 25px;
+}
+
+.btn{
+                       padding: 7px 35px;
+                       border-radius: 20px;
+                       background-color: #002A53;
+                       color: white;
+                       border: 1px solid #002A53;
+                       font-weight: bold;
+}
+
+
+.footer{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 25px;
+        background-color: #002A53;
+        padding-top: 20px;
+        color: white;
+}

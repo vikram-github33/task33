@@ -1,0 +1,12 @@
+ <div class="OtpSection">
+                            <h4>Enter OTP</h4>
+                <div>
+                    <input type="text" class="OtpInputBox" />
+                    <input type="text" class="OtpInputBox" />
+                    <input type="text" class="OtpInputBox" />
+                    <input type="text" class="OtpInputBox" />
+                    <input type="text" class="OtpInputBox" />
+                    <input type="text" class="OtpInputBox" />
+                </div>
+                <button class="btn">Varify</button>
+            </div>

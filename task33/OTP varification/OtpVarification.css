@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Navbar{
+            display: flex;
+            background-color: #282a57;
+            width: 100%;
+            color: white;
+            padding: 15px;
+
+}
+
+.Navbar img{    
+                margin-left: 87px;
+}
+
+.Navbar p{
+            font-size: 12px;
+}
+
+.Navbar .Navabar-Content{
+                text-align: center;
+                margin-left: 17%;
+}
+
+/*   for Header */
+@media screen and (max-width: 680px) {
+    .Navbar .Navabar-Content h2{
+                            font-size: 15px;
+    }
+
+    .Navabar-Content p{
+                            font-size: 9px;
+    }
+  }
+
+.symbol{
+            margin: 8px;
+}
+
+#alert{
+    background-color: white;
+    font-size: 20px;
+    color: #002A53;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+#alert2{
+
+    background-color: white;
+    font-size: 20px;
+  
+    padding: 7px;
+    border-radius: 100%;
+
+}
+
+
+
+
+.subContainer1{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px;
+}
+
+
+
+
+.mainPersonalDetail1{
+                          
+                            display: flex;
+                            padding: 28px ;
+                            border-radius: 15px;
+                            
+}
+
+.personalDetail1{
+                   
+                    margin-left: 20px;
+}
+
+.personalDetail1 h3{
+                   margin-bottom: 15px;
+                   margin-left: 22px;
+}
+
+.personalDetail2 div{
+                      padding: 70px;
+                      background-color: gray;
+                      margin-top: 60px;
+                      border-radius: 100%;
+}
+
+.personalDetail2 img{
+                    border-radius: 10px;
+                    margin-top: 15px;
+}
+
+
+
+.subPersonalDetails1{
+                  display: flex;
+                    margin-left: 25px;
+                  
+}
+
+
+
+
+
+.subPersonalDetails2{
+                    margin-left: 27px;
+                    margin-top: 20px;
+    
+}
+
+
+
+
+.subPersonalDetails2Para{
+                         margin-top: 20px;
+}
+
+
+.input{
+            padding: 12px 60px 12px 5px;
+            border-radius: 3px;
+            border: 1px solid rgb(132, 130, 130);
+            margin-right: 30px;
+            
+}   
+
+
+.inputSubpersonal{
+                  padding: 8px  105px 8px 5px;  
+}
+
+.placeholderForInput{
+                      position: relative;
+                    
+}
+
+.placeholderForInput p {
+                          position: absolute;
+                          background-color: rgb(105, 104, 104);
+                          font-size: 11px;
+                          padding: 3px 10px;
+                          top: 10px;
+                          left: 10px;
+                          color: white;
+                          border-radius: 3px;
+}
+
+  
+
+.MainContainer{
+                    opacity: 0.8;
+                   background-color: rgba(0,0,0,0.7);
+                   z-index: -1;
+                   height: 100vh;
+}
+
+.emailPlaceholder{
+                    position: relative;
+}
+
+.emailPlaceholderSub p{
+                      position: absolute;
+                      font-size: 7px;
+                      background-color: red;
+                      padding: 5px;
+                      border-radius: 5px;
+                      color: white;
+                      right: 5px;
+                      top: 25px;
+}
+
+.mobAndEmail{
+                display: flex;
+}
+
+
+
+
+.emailDiv{
+              margin-right: 20px;
+}
+  .OtpSection{
+               
+                display: flex;
+                flex-direction: column;
+               z-index: 100;
+              align-items: center;
+                position: absolute;
+                top:35%;
+                left: 35%;
+               padding: 30px;
+               border-radius: 5px;
+                background-color: white;
+                border: 1px solid black;
+             
+               
+  }
+
+  .OtpSection input{
+                      width: 20px;
+                      margin: 15px 5px 15px 5px;
+              
+                      
+   }
+
+
+  .btn{   
+            padding: 3px 40px;
+            border-radius: 10px;
+            border: 1px solid  #002A53;;
+            color: white;
+            outline: none;
+            background-color: #002A53;
+            font-weight: bold;
+  }
+
+.addPhotoBtn{
+    padding: 8px 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.plus-Icon{
+            background-color: white;
+            color: #002A53;
+            border-radius: 50%;
+            padding: 3px;
+}

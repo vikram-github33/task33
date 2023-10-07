@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  display: flex;
+  background-color: #002A53;
+  width: 100%;
+  color: white;
+  padding: 15px;
+}
+
+.Navbar img {
+  margin-left: 87px;
+  margin-top: 20px;
+}
+
+.Navbar p {
+  font-size: 12px;
+}
+
+.Navbar .Navabar-Content {
+  text-align: center;
+  margin-left: 17%;
+}
+
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 20px;
+  min-height: 70vh;
+}
+
+.subContainer1 {
+  width: 50%;
+  border: 1px solid black;
+  margin-left: 60px;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .subContainer1 {
+              width: 100%;
+  }
+}
+
+.pointerRight{
+                  position: relative;
+}
+
+.RightHandPointer{
+                   position: absolute;
+                   top: 20px;
+                   left: 80px;
+                   font-size: 25px;
+
+}
+
+.subContainer1 h4 {
+  padding: 5px 50px;
+  background-color: #002A53;
+  display: inline-block;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+.subContainer1 p {
+  padding: 12px;
+  margin-left: 20%;
+}
+
+.subContainer2 {
+  width: 50%;
+  background-color: #002A53;
+  border-radius: 20px;
+  padding: 30px;
+}
+.subContainer2 .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding:20px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.subContainer2 .input {
+  padding: 10px 110px 10px 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+}
+.subContainer2 .numberField {
+  margin: 25px;
+ 
+}
+
+
+
+.subContainer2Para {
+  margin-top: 6px;
+}
+
+.passwordField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.passwordField p {
+  padding: 0;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 6px 50px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #002A53;
+  background-color: #002A53;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.becomePara {
+  margin-top: 40px;
+  font-weight: bold;
+  background-color: white;
+  color: #002A53;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  background-color: #002A53;
+  padding-top: 20px;
+  color: white;
+}
+
+

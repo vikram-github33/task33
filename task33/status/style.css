@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarMain{
+              display: flex;
+              justify-content: center;
+              justify-content: space-evenly;
+              background-color: #002a53;
+              color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 30px;
+  }
+}
+
+
+.navbarMain img{
+                  margin-top: 20px;
+}
+.subNavAndLogo ul{
+                    list-style: none;  
+                    display: flex;
+                    justify-content: space-around;
+                  
+}
+
+.subNavAndLogo ul li {
+                              margin: 20px;
+}
+
+.subNavAndLogo .symbol{
+                          margin: 10px;
+}
+
+.bell-Icon1{
+                  font-size: 22px;
+                  background-color: white;
+               color: #002a53;
+               margin-top: 10px;
+               padding: 7px;
+               margin: 5px;
+               border-radius: 50%;
+
+}
+
+.bell-Icon2
+{
+  color: white;
+}
+
+.subContainer2 {
+  padding: 20px;
+}
+
+.status {
+  margin: 30px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.status-wrapper .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 9;
+}
+.status-wrapper .status-one {
+  position: relative;
+}
+.circle-one {
+  background-color: green;
+}
+
+.circle-two {
+  width: 15px!important;
+  height: 15px!important;
+  background-color: black;
+  transform: translate(-2.5px,0);
+}
+.circle-three {
+  background-color: gray;
+}
+.status-wrapper .status-one::after {
+  content: "";
+  /* width: 1px; */
+  height: 100px;
+  /* background-color: black; */
+  border: 1px dashed black;
+  position: absolute;
+  left: 4px;
+  bottom: -92px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar span {
+    font-size: 13px;
+  }
+}
+
+.symbol {
+  margin: 8px;
+}
+
+#alert {
+  background-color: white;
+  font-size: 20px;
+  color: #002a53;
+  padding: 7px;
+  border-radius: 100%;
+}
+
+#alert2 {
+  background-color: white;
+  font-size: 20px;
+
+  padding: 7px;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #alert,
+  #alert2 {
+    font-size: 15px;
+  }
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  padding: 35px 50px;
+}
+
+.subContainer1 {
+  width: 65%;
+  height: 70vh;
+}
+
+.subContainer2 {
+  width: 30%;
+}
+
+.mainPersonalDetail1 {
+  border: 1px solid rgb(154, 152, 152);
+  display: flex;
+  padding: 28px;
+  border-radius: 15px;
+}
+
+.personalDetail1 {
+  width: 65%;
+  margin-left: 20px;
+}
+
+.personalDetail1 h3 {
+  margin-bottom: 15px;
+  margin-left: 22px;
+}
+
+.personalDetail2 {
+  margin-top: 30px;
+}
+
+.personalDetail2 img {
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .personalDetail2 img {
+    display: none;
+  }
+}
+
+.subPersonalDetails1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .subPersonalDetails1 {
+    display: block;
+    margin-left: 15px;
+  }
+}
+
+.subPersonalDetails2 {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .subPersonalDetails2 {
+    margin-left: 15px;
+  }
+}
+
+.subPersonalDetails2Para {
+  margin-top: 20px;
+}
+
+.input {
+  padding: 8px 25px;
+  border-radius: 3px;
+  border: 1px solid rgb(132, 130, 130);
+}
+
+.inputSubpersonal {
+  padding: 8px 75px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputSubpersonal {
+    padding: 8px 25px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  background-color: #002a53;
+  padding-top: 20px;
+  color: white;
+}
